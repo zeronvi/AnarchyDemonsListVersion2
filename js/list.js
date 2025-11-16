@@ -47,6 +47,26 @@ const d = {
     {
       "vids": [
         {
+          "user": "oliverbum",
+          "link": "https://www.youtube.com/watch?v=oOiL0-Ylyeo",
+          "percent": 100,
+          "hz": "360hz"
+        },
+
+      ],
+      "name": "Voyager 1",
+      "author": "Zephlin and more [oliverbum]",
+      "more": "Zephlin, nexel, SupaCLUCK, oliverbum, DuskerHu, Xapia, JaydenvdH, stellar, wdlucas, zowl, hazelmrow, zedneon, Cubical7 (zedneon built a part in this level)",
+      "id": 126489445,
+
+      "percentToQualify": 57,
+      "verificationVid": "https://www.youtube.com/watch?v=oOiL0-Ylyeo",
+      "key": 34
+    },
+    /*=================================================================================*/
+    {
+      "vids": [
+        {
           "user": "ZerniasX",
           "link": "https://streamable.com/72j6lt",
           "percent": 59,
