@@ -48,7 +48,7 @@ const d = {
       "vids": [],
       "name": "Voyager 1",
       "author": "Zephlin and more [oliverbum]",
-      "more": "Zephlin, nexel, SupaCLUCK, oliverbum, DuskerHu, Xapia, JaydenvdH, stellar, wdlucas, zowl, hazelmrow, zedneon, Cubical7 (zedneon built a part in this level)",
+      "more": "Zephlin, nexel, SupaCLUCK, oliverbum, DuskerHu, Xapia, JaydenvdH, stellar, wdlucas, zowl, hazelmrow, zedneon, Cubical7 (zedneon built a part in this level; published by oliverbum)",
       "id": 126489445,
 
       "percentToQualify": 57,
