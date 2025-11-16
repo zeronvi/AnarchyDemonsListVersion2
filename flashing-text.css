@@ -1,0 +1,15 @@
+.flashing-text {
+  animation: flashText 3s infinite;
+}
+
+@keyframes flashText {
+  0% {
+    color: #FF0000;
+  }
+  50% {
+    color: #000000;
+  }
+  100% {
+    color: #FF0000;
+  }
+}

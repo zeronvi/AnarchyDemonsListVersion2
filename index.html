@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="description" content="Anarchy Demons List">
+  <title>Anarchy Demons List</title>
+  <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/959560578274324620/963194769427812462/unknown.png">
+  <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:200,400,700" rel="stylesheet">
+  <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div id="hi" class="adl-shell">
+    <header id="dl-header" class="adl-header">
+      <div id="sitename" class="adl-title">
+        <strong>Anarchy Demons List</strong>
+        <small><em id="version-node"></em></small>
+      </div>
+      <div id="pc-link" class="adl-header-actions">
+        <a href="https://discord.gg/CDvkHaHjaa" target="_blank" rel="noopener" class="adl-button adl-button--primary">
+          Official Discord
+        </a>
+        <button id="tab-list" class="adl-nav-tab adl-nav-tab--active">
+          List
+        </button>
+        <button id="tab-users" class="adl-nav-tab">
+          User Scores
+        </button>
+      </div>
+    </header>
+
+    <main id="adl-main-list" class="adl-main">
+      <section id="list" class="adl-panel adl-panel--levels">
+        <div class="adl-panel__header">
+          <h2 class="adl-panel__title">Levels</h2>
+        </div>
+        <!-- Level entries are injected here by js/list.js -->
+      </section>
+
+      <section id="info" class="adl-panel adl-panel--details">
+        <div id="inner-info" class="adl-panel__body">
+          <div class="adl-level-header">
+            <div id="levelname"></div>
+            <div id="leveltags" class="adl-level-tags"></div>
+            <div id="levelauthor">by <span id="inside-level-author"></span></div>
+          </div>
+
+          <div id="leveldescription" class="adl-level-description"></div>
+          <div id="levelvid" class="adl-level-video"></div>
+
+          <section id="records" class="adl-records">
+            <div class="adl-records-meta">
+              <div id="level-info">
+                <div id="records-score"></div>
+                <div id="records-id"></div>
+                <div id="records-pass"></div>
+              </div>
+            </div>
+
+            <div class="adl-panel__subheader">
+              <h3 id="records-title">Records</h3>
+              <div id="qualification">
+                <strong id="levelqualify"></strong>% or better required to qualify
+                <div class="adl-submit-record">
+                  <a target="_blank" href="https://forms.gle/1EZhky3N8MiTN3bP9" class="adl-button adl-button--ghost">
+                    > Submit Record <
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div id="records-table"></div>
+          </section>
+        </div>
+      </section>
+
+      <aside id="additional-information" class="adl-panel adl-panel--sidebar">
+        <div id="inner-right-info" class="adl-panel__body">
+          <section class="adl-section">
+            <h2 class="adl-panel__title">Submit a Record</h2>
+            <p>
+              <strong>
+                Do you have a record to submit? Was your record typed incorrectly or does it need updating?
+                <u><a target="_blank" href="https://forms.gle/1EZhky3N8MiTN3bP9">Submit your record!</a></u>
+              </strong>
+            </p>
+          </section>
+
+          <section class="adl-section">
+            <h2 class="adl-panel__title">List Owner</h2>
+            <ul class="adl-list">
+              <li>
+                <a href="https://www.youtube.com/c/zeronvi" target="_blank" rel="noopener">zeronvi</a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="adl-section">
+            <h2 class="adl-panel__title">List Helpers</h2>
+            <ul class="adl-list">
+              <li>
+                <a href="https://www.youtube.com/c/ZerniasX" target="_blank" rel="noopener">ZerniasX</a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCdYhzZMEcvzlcPSf4AHfXAA" target="_blank" rel="noopener">Keta</a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/c/TronMaxGD" target="_blank" rel="noopener">TronMax</a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="adl-section">
+            <h2 class="adl-panel__title">Submission Rules</h2>
+            <p>You can submit a record if you meet the following requirements:</p>
+            <ul class="adl-list adl-list--rules">
+              <li>Achieved the record without using hacks (FPS bypass is allowed, up to 360fps).</li>
+              <li>Achieved the record on the level that is listed on the site — please check the level ID before you submit a record.</li>
+              <li>Do not use secret routes or bug routes.</li>
+              <li>Do not use easy modes, only a record of the unmodified level qualifies.</li>
+              <li>Records can be submitted ONLY through youtube.com links.</li>
+            </ul>
+            <p class="adl-quote">
+              "subscribe to meatloaf" - zeronvi
+            </p>
+          </section>
+
+          <section class="adl-section adl-section--changelog">
+            <h2 class="adl-panel__title">Changelog</h2>
+            <ul class="adl-list adl-list--changelog">
+              <li><strong>v4.2.0</strong> – Brutalist redesign, User Scores tab, and new rank-based points system.</li>
+              <li><strong>v4.1.x</strong> – Additional level and record updates.</li>
+            </ul>
+          </section>
+
+          <section id="user-rank-info" class="adl-section adl-section--user-rank">
+            <h2 class="adl-panel__title">User Score List</h2>
+            <p class="adl-note">
+              Open the <strong>User Scores</strong> tab in the top bar for the full rankings.
+            </p>
+          </section>
+        </div>
+      </aside>
+    </main>
+
+    <main id="adl-main-users" class="adl-main adl-main--scores" style="display:none;">
+      <section class="adl-panel adl-panel--scores">
+        <div class="adl-panel__header">
+          <h2 class="adl-panel__title">User Score List</h2>
+        </div>
+        <div class="adl-panel__body adl-scores-body">
+          <div id="user-rank"></div>
+          <div id="user-detail"></div>
+        </div>
+      </section>
+    </main>
+
+    <noscript>
+      <div id="block">
+        You are not using JavaScript
+      </div>
+    </noscript>
+  </div>
+
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/sweetalert.min.js"></script>
+  <script type="text/javascript" src="js/list.js"></script>
+  <script type="text/javascript" src="js/userData.js"></script>
+  <script src="script.js"></script>
+
+  <script>
+    // height changing script, adapted to new header
+    var hChange = function() {
+      var height = $(window).height();
+      var headerHeight = $('#dl-header').outerHeight() || 100;
+      var remainingHeight = (height - headerHeight) + "px";
+      $("#list").css('height', remainingHeight);
+      $("#additional-information").css('height', remainingHeight);
+      $("#info").css('height', remainingHeight);
+    };
+    hChange();
+    $(window).resize(hChange);
+
+    // placeholder for any theme-based JS tweaks if needed
+    function cueCSS() {}
+  </script>
+
+  <script name="userpoint" type="text/javascript">
+    function getPoint(rank) {
+      if (rank <= 0) return 0;
+      // Base points decrease smoothly with rank: rank 1 is highest.
+      return roundNumber(200 / Math.sqrt(rank), 3);
+    }
+    function roundNumber(num, scale) {
+      if (!("" + num).includes("e")) {
+        return +(Math.round(num + "e+" + scale) + "e-" + scale);
+      } else {
+        var arr = ("" + num).split("e");
+        var sig = "";
+        if (+arr[1] + scale > 0) {
+          sig = "+";
+        }
+        return +(Math.round(+arr[0] + "e" + sig + (+arr[1] + scale)) + "e-" + scale);
+      }
+    }
+    function getUserPoint(rank, percent, cutline, hz) {
+      if (rank <= 0) return 0;
+
+      var base = getPoint(rank);
+
+      // Completion factor:
+      // - If percent >= cutline, scale from cutline to 100% linearly.
+      // - If percent < cutline, scale progress relative to the requirement.
+      var completion;
+      if (cutline == null || cutline <= 0) {
+        completion = percent / 100;
+      } else if (percent >= cutline) {
+        completion = (percent - (cutline - 1)) / (100 - (cutline - 1));
+      } else {
+        completion = percent / cutline;
+      }
+
+      if (completion < 0) completion = 0;
+      if (completion > 1) completion = 1;
+
+      // hz is intentionally neutral in this scoring; difficulty is represented by rank.
+      var score = base * completion;
+
+      return roundNumber(score, 3);
+    }
+    function getAuthors(rank) {
+      Swal.fire({
+        html: list[rank - 1].more + '.'
+      });
+    }
+    var rank_node = $("#user-rank");
+    var rank_data = [];
+    for (var i = 0; i < list.length; i++) {
+      var entry = list[i];
+      for (var a = 0; a < entry.vids.length; a++) {
+        var entry2 = entry.vids[a];
+        var isLoot = false;
+        for (var b = 0; b < rank_data.length; b++) {
+          if (rank_data[b].name.toUpperCase() == entry2.user.toUpperCase()) {
+            isLoot = true;
+          }
+        }
+        var po;
+        po = getUserPoint(i + 1, entry2.percent, entry.percentToQualify, entry2.hz);
+        if (isLoot == true) {
+          for (var b = 0; b < rank_data.length; b++) {
+            var user_name = rank_data[b].name.toUpperCase();
+            var data_name = entry2.user.toUpperCase();
+            if (user_name == data_name) {
+              rank_data[b].point = rank_data[b].point + po;
+            }
+          }
+        } else {
+          rank_data.push({ name: entry2.user, point: po });
+        }
+      }
+    }
+    var sortingField = "point";
+    rank_data.sort(function(a, b) {
+      return b[sortingField] - a[sortingField];
+    });
+    for (var i = 0; i < rank_data.length; i++) {
+      rank_data[i].point = roundNumber(rank_data[i].point, 3);
+    }
+
+    rank_data = userList();
+    var rank = `<ol>`;
+    for (var i = 0; i < rank_data.length; i++) {
+      var sc = `getUserData(${i})`;
+      rank = `${rank} <span onclick="${sc}" style="cursor:pointer">${i + 1}. ${rank_data[i].name} : ${rank_data[i].point} ➦</span><br>`;
+    }
+    rank = `${rank} </ol>`;
+    rank_node.html(`${rank}`);
+  </script>
+
+  <script name="postload" type="text/javascript">
+    var l = getParameterByName('q', window.location.href) * 1 - 1;
+    var list_node = $("#list");
+    var record_node = $("#records-table");
+    var legacy_count = 0;
+    for (var i = 0; i < list.length; i++) {
+      var entry = list[i];
+      if (entry.key == null) {
+        legacy_count++;
+      }
+    }
+    $("#version-node").text("(v" + version[0] + "." + version[1] + "." + version[2] + ")");
+    list.sort(function(a, b) {
+      var legacy_count = 0;
+      for (var i = 0; i < list.length; i++) {
+        var entry = list[i];
+        if (entry.key == null) {
+          legacy_count++;
+        }
+      }
+      var arank = 0;
+      var brank = 0;
+      if (a.key == null) {
+        arank = 150 + (legacy_count - a.legacyKey);
+      } else {
+        arank = (a.key) + 1;
+      }
+      if (b.key == null) {
+        brank = 150 + (legacy_count - b.legacyKey);
+      } else {
+        brank = (b.key) + 1;
+      }
+      return arank - brank;
+    });
+    for (var i = 0; i < list.length; i++) {
+      var entry = list[i];
+      var isSelected = (l == -1 ? (i == 0) : (i == l));
+      var baseClass = "entry";
+      var rankForStripe = 0;
+
+      if (entry.key == null) {
+        baseClass += " entry--legacy";
+      } else {
+        rankForStripe = (entry.key) + 1;
+        if (rankForStripe === 1) {
+          baseClass += " entry--top1";
+        } else if (rankForStripe <= 5) {
+          baseClass += " entry--top5";
+        } else if (rankForStripe <= 10) {
+          baseClass += " entry--top";
+        } else if (rankForStripe <= 25) {
+          baseClass += " entry--high";
+        } else if (rankForStripe <= 50) {
+          baseClass += " entry--mid";
+        }
+      }
+
+      if (isSelected) {
+        baseClass += " selected";
+      }
+
+      if (entry.key != null) {
+        $("<div>").addClass(baseClass).html(`#${i + 1}: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr("value", i).appendTo(list_node);
+      } else {
+        $("<div>").addClass(baseClass).html(`<strong>Legacy</strong>: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr("value", i).appendTo(list_node);
+      }
+    }
+    // handlers
+    function extractYouTubeId(url) {
+      if (!url) return null;
+      var id = ("" + url).trim();
+      id = id.replace(/&/g, "&");
+
+      if (!id.match(/youtube\.com|youtu\.be/)) {
+        return id.split(/[?&]/)[0];
+      }
+
+      var match = id.match(/[?&]v=([^&?#]+)/);
+      if (match && match[1]) {
+        return match[1];
+      }
+
+      match = id.match(/youtu\.be\/([^?&#]+)/);
+      if (match && match[1]) {
+        return match[1];
+      }
+
+      id = id.split("?")[0];
+      var parts = id.split("/");
+      return parts[parts.length - 1];
+    }
+
+    var load = function(node) {
+      var num;
+      if (typeof node == "number") {
+        num = node;
+      } else {
+        num = $(node).attr("value");
+      }
+      var entry = list[num];
+      if (!entry) {
+        load(0);
+      } else {
+        var videoId = extractYouTubeId(entry.verificationVid);
+        var rank = 0;
+        if (entry.key == null) {
+          rank = 150 + (legacy_count - entry.legacyKey);
+        } else {
+          rank = (entry.key) + 1;
+        }
+
+        // Apply rank-based tier skinning on the main shell
+        var $shell = $("#hi");
+        $shell.removeClass("adl-tier-top1 adl-tier-top5");
+        if (entry.key != null) {
+          if (rank === 1) {
+            $shell.addClass("adl-tier-top1");
+          } else if (rank <= 5) {
+            $shell.addClass("adl-tier-top5");
+          }
+        }
+
+        var hacked = "";
+        if (entry.hacked != null) {
+          if (entry.hacked) {
+            hacked = " <span class='hacked'>HACKED</span>";
+          } else {
+            hacked = " <span class='p-hacked'>POSSIBLY HACKED</span>";
+          }
+        }
+        $("#levelname").html((rank > 150 ? `` : `#` + rank + ` `) + entry.name + hacked);
+
+        var tags = [];
+        if (entry.key == null) {
+          tags.push('<span class="adl-tag adl-tag--legacy">Legacy</span>');
+        } else {
+          if (rank === 1) {
+            tags.push('<span class="adl-tag adl-tag--top1">Hardest Demon</span>');
+          } else if (rank <= 5) {
+            tags.push('<span class="adl-tag adl-tag--top5">Top 5</span>');
+          } else if (rank <= 10) {
+            tags.push('<span class="adl-tag adl-tag--top">Top 10</span>');
+          } else if (rank <= 25) {
+            tags.push('<span class="adl-tag adl-tag--high">Top 25</span>');
+          } else if (rank <= 50) {
+            tags.push('<span class="adl-tag adl-tag--mid">Top 50</span>');
+          }
+        }
+        if (tags.length > 0) {
+          $("#leveltags").html(tags.join(" "));
+        } else {
+          $("#leveltags").empty();
+        }
+
+        var author = entry.author;
+        var final_author;
+        if (author.includes(" more ")) {
+          final_author = author.replace(" more ", " <u><span onclick=\"getAuthors(" + rank + ")\" style=\"cursor:pointer\">more</span></u> ");
+        } else {
+          final_author = author;
+        }
+        final_author = final_author.replace(" [", ", Verified by ").replace("]", "");
+        $("#inside-level-author").empty();
+        $("#inside-level-author").html(final_author);
+        $("#leveldescription").empty();
+        $("#leveldescription").text(entry.desc);
+        $("#levelvid").empty();
+        if (videoId) {
+          $("#levelvid").html(`<hr><iframe class="vid" src="https://www.youtube.com/embed/${videoId}?rel=0" frameborder="0" allowfullscreen></iframe>`);
+        }
+        $("#levelqualify").text(entry.percentToQualify);
+        $("#records-score").html(`<strong>Points when completed : ${getPoint(rank)}</strong>`);
+        $("#records-id").html(`<strong>Level ID : ${entry.id}</strong>`);
+        $("#records-pass").html(`<strong>Level Password : ${entry.pass}</strong>`);
+        $("#inside-level-author").html(final_author);
+        $(record_node).empty();
+        entry.vids.sort(function(a, b) {
+          return b.percent - a.percent;
+        });
+        for (var j = 0; j < entry.vids.length; j++) {
+          var record = entry.vids[j];
+          if (!record.link.includes("https://")) {
+            record.link = "https://" + record.link;
+          }
+          if (record.hz == null) {
+            record.hz = "144hz";
+          }
+          $("<div>").addClass("record-entry").html(`<div class='interentry'><a href="${record.link}" target="_blank"><strong>${record.user}</strong> (<em>${record.percent}%</em>) ${record.hz}</a></div>`).appendTo(record_node);
+        }
+      }
+      cueCSS();
+    };
+    $(".entry").click(function() {
+      $(".entry").removeClass("selected");
+      $(this).addClass("selected");
+      load(this);
+    });
+    // https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+    function getParameterByName(name, url) {
+      if (!url) url = window.location.href;
+      name = name.replace(/[\[\]]/g, "\\$&");
+      var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return "";
+      return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+    load(l * 1);
+  </script>
+
+  <script type="text/javascript">
+    $(function() {
+      $("#tab-list").on("click", function() {
+        $("#tab-list").addClass("adl-nav-tab--active");
+        $("#tab-users").removeClass("adl-nav-tab--active");
+        $("#adl-main-list").show();
+        $("#adl-main-users").hide();
+      });
+
+      $("#tab-users").on("click", function() {
+        $("#tab-users").addClass("adl-nav-tab--active");
+        $("#tab-list").removeClass("adl-nav-tab--active");
+        $("#adl-main-list").hide();
+        $("#adl-main-users").show();
+      });
+    });
+  </script>
+</body>
+</html>

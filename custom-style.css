@@ -1,0 +1,55 @@
+/* custom-style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: #FFF;
+}
+
+.container {
+  padding: 20px;
+}
+
+body {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+body.loaded {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.card {
+  background-color: #2C2C2C;
+  border: 1px solid #FF0000;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.4);
+}
+
+.card img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #FF0000;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: all .3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #8B0000;
+  transform: translateY(-2px);
+}
