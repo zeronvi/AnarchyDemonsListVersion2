@@ -45,15 +45,7 @@ const d = {
     },
     /*=================================================================================*/
     {
-      "vids": [
-        {
-          "user": "oliverbum",
-          "link": "https://www.youtube.com/watch?v=oOiL0-Ylyeo",
-          "percent": 100,
-          "hz": "360hz"
-        },
-
-      ],
+      "vids": [],
       "name": "Voyager 1",
       "author": "Zephlin and more [oliverbum]",
       "more": "Zephlin, nexel, SupaCLUCK, oliverbum, DuskerHu, Xapia, JaydenvdH, stellar, wdlucas, zowl, hazelmrow, zedneon, Cubical7 (zedneon built a part in this level)",
@@ -62,6 +54,18 @@ const d = {
       "percentToQualify": 57,
       "verificationVid": "https://www.youtube.com/watch?v=oOiL0-Ylyeo",
       "key": 2
+    },
+    /*=================================================================================*/
+    {
+      "vids": [],
+      "name": "Epilepsy Warning",
+      "author": "zedneon and more [Stolen Burrito]",
+      "more": "zedneon, OliXor, Rowanm, Helbrein, Clayfox, Zernias, Weatherford, Zippy06",
+      "id": 117179240,
+
+      "percentToQualify": 57,
+      "verificationVid": "https://www.youtube.com/watch?v=svT1kqdcN54",
+      "key": 3
     },
     /*=================================================================================*/
     {
@@ -81,7 +85,7 @@ const d = {
 
       "percentToQualify": 57,
       "verificationVid": "https://www.youtube.com/watch?v=UZ6F9QgKquQ&t=64s",
-      "key": 3
+      "key": 4
     },
     /*=================================================================================*/
     {
@@ -102,7 +106,19 @@ const d = {
 
       "percentToQualify": 52,
       "verificationVid": "https://youtu.be/QXAWCYB6Sls",
-      "key": 4
+      "key": 5
+    },
+    /*=================================================================================*/
+    {
+      "vids": [],
+      "name": "T34",
+      "author": "ThePrimeEvil and more [zedneon]",
+      "more": "ThePrimeEvil, The Squid (Originally hack verified, later verified by zedneon after 8 years)",
+      "id": 32296640,
+
+      "percentToQualify": 60,
+      "verificationVid": "https://www.youtube.com/watch?v=rmFlBizGhrk",
+      "key": 6
     },
     /*=================================================================================*/
     {
@@ -123,7 +139,7 @@ const d = {
 
       "percentToQualify": 60,
       "verificationVid": "https://www.youtube.com/watch?v=LrsXFWIujxI",
-      "key": 5
+      "key": 7
     },
     /*=================================================================================*/
     {
@@ -144,12 +160,32 @@ const d = {
 
       "percentToQualify": 63,
       "verificationVid": "https://youtu.be/KsrDlPLFyW0",
-      "key": 6
+      "key": 8
     },
 /*=================================================================================*/
    
-    
-    { 
+    {
+      "vids":
+      {
+        "user": "put name here",
+        "link": "yt link",
+        "percent": 100,
+        "hz": "360hz"
+      },
+
+
+
+      "name": "Yellow",
+      "author": "zeronvi and more [ZerniasX]",
+      "more": "zeronvi, zedNeon, CycloPlushGD, Zipplandia, Stolen Burrito, ZerniasX, Lucarieo",
+      "id": 72619704,
+
+      "percentToQualify": 59,
+      "verificationVid": "https://youtu.be/1fnW49hWbvs",
+      "key": 9
+    },
+    /*=================================================================================*/
+    {
       "vids": [
       {
         "user": "zeronvi",
@@ -157,6 +193,7 @@ const d = {
         "percent": 98,
         "hz": "360hz"
       },
+
 
 
 ],
@@ -167,7 +204,7 @@ const d = {
 
       "percentToQualify": 58,
       "verificationVid": "https://youtu.be/cW1S4Y4qe0s",
-      "key": 7
+      "key": 10
     },
     /*=================================================================================*/
     
@@ -189,11 +226,11 @@ const d = {
 
       "percentToQualify": 61,
       "verificationVid": "https://www.youtube.com/watch?v=dHtzmlZPB4k&t=21s",
-      "key": 8
+      "key": 11
     },
     /*=================================================================================*/
-       { 
-      "vids": 
+       {
+      "vids":
       {
         "user": "zeronvi",
         "link": "",
@@ -210,7 +247,7 @@ const d = {
 
       "percentToQualify": 55,
       "verificationVid": "https://youtu.be/_qDBL8mTPGA",
-      "key": 9
+      "key": 12
     },
     /*=================================================================================*/
     {
@@ -231,7 +268,7 @@ const d = {
 
       "percentToQualify": 69,
       "verificationVid": "https://youtu.be/pXirc1QOm3U",
-      "key": 10
+      "key": 13
     },
     /*=================================================================================*/
     {
@@ -252,7 +289,7 @@ const d = {
 
       "percentToQualify": 50,
       "verificationVid": "https://youtu.be/wilxZ1lcMZY",
-      "key": 11
+      "key": 14
     },
     /*=================================================================================*/
     {
@@ -273,28 +310,7 @@ const d = {
 
       "percentToQualify": 65,
       "verificationVid": "https://youtu.be/Jo1e6RhGvn8",
-      "key": 12
-    },
-    /*=================================================================================*/
-    {
-      "vids":
-      {
-        "user": "put name here",
-        "link": "yt link",
-        "percent": 100,
-        "hz": "360hz"
-      },
-
-
-
-      "name": "Yellow",
-      "author": "zeronvi and more [ZerniasX]",
-      "more": "zeronvi, zedNeon, CycloPlushGD, Zipplandia, Stolen Burrito, ZerniasX, Lucarieo",
-      "id": 72619704,
-
-      "percentToQualify": 59,
-      "verificationVid": "https://youtu.be/1fnW49hWbvs",
-      "key": 13
+      "key": 15
     },
     /*=================================================================================*/
     {
@@ -315,7 +331,19 @@ const d = {
 
       "percentToQualify": 66,
       "verificationVid": "https://www.youtube.com/watch?v=3k_xD8bPTW4",
-      "key": 14
+      "key": 16
+    },
+    /*=================================================================================*/
+    {
+      "vids": [],
+      "name": "Ball Tutorial",
+      "author": "zedneon",
+      "more": "zedneon",
+      "id": 125276741,
+
+      "percentToQualify": 66,
+      "verificationVid": "https://www.youtube.com/watch?v=Y2I5QD4Nw14",
+      "key": 17
     },
     /*=================================================================================*/
    {
@@ -336,7 +364,7 @@ const d = {
 
       "percentToQualify": 64,
       "verificationVid": "https://youtu.be/1OqtCfCiej8",
-      "key": 15
+      "key": 18
     },
     /*=================================================================================*/
     {
@@ -357,7 +385,7 @@ const d = {
 
       "percentToQualify": 60,
       "verificationVid": "https://www.youtube.com/watch?v=VftQiwIy52s",
-      "key": 16
+      "key": 19
     },
     /*=================================================================================*/
        {
@@ -378,7 +406,7 @@ const d = {
 
       "percentToQualify": 64,
       "verificationVid": "https://www.youtube.com/watch?v=i46DB9QDiuU",
-      "key": 17
+      "key": 20
     },
     /*=================================================================================*/
     {
@@ -399,7 +427,7 @@ const d = {
 
       "percentToQualify": 61,
       "verificationVid": "https://youtu.be/tIu1HSLL21M",
-      "key": 18
+      "key": 21
     },
     /*=================================================================================*/
       {
@@ -419,7 +447,7 @@ const d = {
 
       "percentToQualify": 62,
       "verificationVid": "https://www.youtube.com/watch?v=FEidcVQV5Sc",
-      "key": 19
+      "key": 22
     },
     /*=================================================================================*/
     {
@@ -445,7 +473,19 @@ const d = {
 
       "percentToQualify": 55,
       "verificationVid": "https://youtu.be/wDf8IjqXXCQ",
-      "key": 20
+      "key": 23
+    },
+    /*=================================================================================*/
+    {
+      "vids": [],
+      "name": "Simply All Good",
+      "author": "RXKNephew and more [Wespdx]",
+      "more": "RXKNephew, zedneon (zedneon made gameplay, river decorated)",
+      "id": 121865504,
+
+      "percentToQualify": 55,
+      "verificationVid": "https://www.youtube.com/watch?v=OGbCXU8-bWs",
+      "key": 24
     },
     /*=================================================================================*/
     {
@@ -477,7 +517,7 @@ const d = {
 
       "percentToQualify": 61,
       "verificationVid": "https://youtu.be/LM_x1TdcnME",
-      "key": 21
+      "key": 25
     },
     /*=================================================================================*/
     {
@@ -498,7 +538,7 @@ const d = {
 
       "percentToQualify": 66,
       "verificationVid": "https://youtu.be/JgJEk3Bc_40",
-      "key": 22
+      "key": 26
     },
     /*=================================================================================*/
     {
@@ -529,7 +569,7 @@ const d = {
 
       "percentToQualify": 57,
       "verificationVid": "https://youtu.be/lRFzOrOUKtw",
-      "key": 23
+      "key": 27
     },
     /*=================================================================================*/
     {
@@ -557,7 +597,7 @@ const d = {
 
       "percentToQualify": 50,
       "verificationVid": "https://youtu.be/hNIGJrtSOs0",
-      "key": 24
+      "key": 28
     },
     /*=================================================================================*/
 
@@ -579,7 +619,7 @@ const d = {
 
       "percentToQualify": 55,
       "verificationVid": "https://youtu.be/KH91Ed7xFFA",
-      "key": 25
+      "key": 29
     },
     /*=================================================================================*/
           {
@@ -600,7 +640,7 @@ const d = {
 
       "percentToQualify": 49,
       "verificationVid": "https://www.youtube.com/watch?v=QAWnOAzPF5c&t=56s",
-      "key": 26
+      "key": 30
     },
     /*=================================================================================*/
 
@@ -623,7 +663,7 @@ const d = {
 
       "percentToQualify": 63,
       "verificationVid": "https://youtu.be/bXA9dHvdSHA",
-      "key": 27
+      "key": 31
     },
     /*=================================================================================*/
     {
@@ -644,7 +684,7 @@ const d = {
 
       "percentToQualify": 70,
       "verificationVid": "https://youtu.be/BDImtWNLlxU",
-      "key": 28
+      "key": 32
     },
     /*=================================================================================*/
     {
@@ -681,7 +721,7 @@ const d = {
 
       "percentToQualify": 60,
       "verificationVid": "https://youtu.be/4jcIkmqseXk",
-      "key": 29
+      "key": 33
     },
     /*=================================================================================*/
     {
@@ -702,7 +742,7 @@ const d = {
 
       "percentToQualify": 60,
       "verificationVid": "https://youtu.be/S-v_Eyp0ngY",
-      "key": 30
+      "key": 34
     },
     /*=================================================================================*/
     {
@@ -728,7 +768,7 @@ const d = {
 
       "percentToQualify": 60,
       "verificationVid": "https://youtu.be/fy4eVgBmLJA",
-      "key": 31
+      "key": 35
     },
     /*=================================================================================*/
     
@@ -750,7 +790,7 @@ const d = {
 
       "percentToQualify": 63,
       "verificationVid": "https://youtu.be/1o4HLtcOR7Q",
-      "key": 32
+      "key": 36
     },
     /*=================================================================================*/
     {
@@ -787,7 +827,7 @@ const d = {
 
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=8BBfE1dETjI",
-      "key": 33
+      "key": 37
     },
     /*=================================================================================*/        
          {
@@ -806,7 +846,7 @@ const d = {
 
       "percentToQualify": 100,
       "verificationVid": "https://www.youtube.com/watch?v=7QPuWBZ711A",
-      "key": 34
+      "key": 38
     },
     /*=================================================================================*/
 
